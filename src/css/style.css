@@ -149,12 +149,12 @@ hr {
 .paralax-body .paralax-image-container .paralax-image-1 {
   -webkit-transform: rotate(-45deg) scale(1) translateX(25%) translateY(0%);
           transform: rotate(-45deg) scale(1) translateX(25%) translateY(0%);
-  background: url(/src/img/industrial_bg_2.jpg) center no-repeat;
+  background: url('../img/industrial_bg_2.jpg') center no-repeat;
 }
 .paralax-body .paralax-image-container .paralax-image-2 {
   -webkit-transform: rotate(-45deg) scale(1) translateX(-25%) translateY(0%);
           transform: rotate(-45deg) scale(1) translateX(-25%) translateY(0%);
-  background: url(/src/img/industrial_bg_3.jpg) center no-repeat;
+  background: url('../img/industrial_bg_3.jpg') center no-repeat;
 }
 .paralax-body .paralax-image-container .paralax-image {
   width: 50rem;
@@ -256,7 +256,7 @@ header .brand-logo {
 /*Header*/
 /*Main*/
 main .description {
-  background: url('/src/img/industrial_bg.jpg') bottom no-repeat;
+  background: url('../img/industrial_bg.jpg') bottom no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -358,6 +358,9 @@ main .products-image img {
 main .products-image img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+main .products .rotate-90 {
+  left: -20rem;
 }
 main .clients {
   position: relative;
